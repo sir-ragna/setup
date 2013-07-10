@@ -11,11 +11,12 @@ git clone https://github.com/startup-class/setup.git
 ./setup/setup.sh   
 ```
 
-See also http://github.com/startup-class/dotfiles and
-[Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
-for more details.
+Deploy SSH keys
 
+```sh
+wget -qO- https://raw.github.com/sir-ragna/setup/master/ssh.sh | sh
+```
 
-
+See also http://github.com/startup-class/dotfiles
 
 
