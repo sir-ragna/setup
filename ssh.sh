@@ -13,4 +13,4 @@ wget -qO- $auth >> authorized_keys # appends does not overwrite
                                    # this should change if auth
                                    # file is guaranteed to be 
                                    # up to date.
-
+chmod 600 authorized_keys
